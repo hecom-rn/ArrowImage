@@ -1,6 +1,6 @@
 {
   "name": "@hecom/image-arrow",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Arrow Image",
   "main": "dist/index.js",
   "scripts": {},
