@@ -1,6 +1,6 @@
 {
   "name": "@hecom/image-arrow",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "private": false,
   "description": "Arrow Image",
   "main": "src/index.tsx",
