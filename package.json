@@ -1,15 +1,24 @@
 {
   "name": "@hecom/image-arrow",
   "version": "1.0.0",
+  "private": false,
   "description": "Arrow Image",
-  "main": "dist/index.js",
-  "scripts": {},
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "./node_modules/.bin/eslint . --ext .ts,.tsx"
+  },
   "repository": {
     "type": "git",
-    "url": "git@gitlab.com:hecom/image-arrow.git"
+    "url": "https://github.com/hecom-rn/ArrowImage.git"
   },
   "author": "Xiaosong Gao",
   "license": "MIT",
-  "peerDependencies": {
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@types/react": "^16.8.4",
+    "@types/react-native": "^0.57.38",
+    "eslint-plugin-automatic": "latest"
   }
 }

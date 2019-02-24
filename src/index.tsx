@@ -1,7 +1,13 @@
 import React from 'react';
-import { StyleSheet, Image } from 'react-native';
+import { StyleSheet, Image, ImageStyle } from 'react-native';
 
-export default class extends React.PureComponent {
+export namespace ArrowImageTypes {
+    export interface Props {
+        style?: ImageStyle;
+    }
+}
+
+export default class extends React.PureComponent<ArrowImageTypes.Props> {
     render() {
         return (
             <Image
